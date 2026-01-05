@@ -1,97 +1,143 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: "Grid Developer Platform"
+description: "Ship with stablecoins 10x faster"
+mode: "custom"
 ---
 
-## Setting up
+<div className="mint-max-w-screen-xl mint-mx-auto mint-p-8 mint-space-y-12 mint-mb-24">
+  {/* Hero Section */}
+  <div className="mint-w-full mint-rounded-2xl mint-overflow-hidden mint-min-h-[400px] mint-py-16 mint-flex mint-items-center">
+    {/* Mobile Layout */}
+    <div className="mint-block md:mint-hidden mint-w-full">
+      <div className="mint-mb-8">
+        <h1 className="mint-text-5xl mint-text-balance mint-font-bold mint-mb-6">
+          The stablecoin API for accounts, payments, cards, and yield
+        </h1>
+        <p className="mint-text-xl mint-mb-8 mint-max-w-3xl">
+          Ship stablecoin products with confidence on infrastructure securing over $15B
+        </p>
+        <div className="mint-flex mint-items-center mint-gap-4">
+          <a 
+            href="/grid/v1/accounts/introduction"
+            className="grid-button"
+          >
+            Learn More
+            <span 
+              style={{
+                maskImage: 'url(https://d3gk2c5xim1je2.cloudfront.net/lucide/v0.545.0/arrow-right.svg)',
+                WebkitMaskImage: 'url(https://d3gk2c5xim1je2.cloudfront.net/lucide/v0.545.0/arrow-right.svg)',
+                maskRepeat: 'no-repeat',
+                maskPosition: 'center center',
+                maskSize: '100%',
+                backgroundColor: 'currentColor',
+                width: '16px',
+                height: '16px',
+                display: 'inline-block',
+                verticalAlign: 'middle'
+              }}
+            />
+          </a>
+        </div>
+      </div>
+      <img 
+        src="https://mintcdn.com/squads/RkEMH70nMGZ0tMOx/images/hero-2.jpg?fit=max&auto=format&n=RkEMH70nMGZ0tMOx&q=85&s=c1ecbffeed82c523f42ba5ad6925ce0b" 
+        alt="Grid hero" 
+        className="w-full rounded-xl"
+        style={{minHeight: 180, objectFit: 'cover'}}
+      />
+    </div>
+    
+    {/* Desktop Layout */}
+    <div className="mint-hidden md:mint-grid md:mint-grid-cols-2 mint-w-full mint-min-h-[400px] mint-items-center mint-gap-8">
+      <div>
+        <h1 className="mint-text-5xl mint-text-balance mint-font-bold mint-mb-6">
+          The stablecoin API for accounts, payments, cards, and yield
+        </h1>
+        <p className="mint-text-xl mint-mb-8 mint-max-w-3xl">
+          Ship stablecoin products with confidence on infrastructure securing over $15B
+        </p>
+        <div className="mint-flex mint-items-center mint-gap-4">
+          <a 
+            href="/grid/v1/accounts/introduction"
+            className="grid-button"
+          >
+            Learn More
+            <span 
+              style={{
+                maskImage: 'url(https://d3gk2c5xim1je2.cloudfront.net/lucide/v0.545.0/arrow-right.svg)',
+                WebkitMaskImage: 'url(https://d3gk2c5xim1je2.cloudfront.net/lucide/v0.545.0/arrow-right.svg)',
+                maskRepeat: 'no-repeat',
+                maskPosition: 'center center',
+                maskSize: '100%',
+                backgroundColor: 'currentColor',
+                width: '16px',
+                height: '16px',
+                display: 'inline-block',
+                verticalAlign: 'middle'
+              }}
+            />
+          </a>
+        </div>
+      </div>
+      <div className="mint-flex mint-justify-center">
+        <img 
+          src="https://mintcdn.com/squads/RkEMH70nMGZ0tMOx/images/hero-2.jpg?fit=max&auto=format&n=RkEMH70nMGZ0tMOx&q=85&s=c1ecbffeed82c523f42ba5ad6925ce0b" 
+          alt="Grid hero" 
+          className="w-full rounded-xl"
+          style={{minHeight: 300, objectFit: 'cover'}}
+        />
+      </div>
+    </div>
+  </div>
 
-Get your documentation site up and running in minutes.
+{/* Build with Grid Section */}
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
+{" "}
 
-## Make it yours
-
-Design a docs site that looks great and empowers your users.
-
-<Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
-    Edit your docs locally and preview them in real time.
-  </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
-  </Card>
+<div className="mint-space-y-4">
+  <h2 className="!mint-text-3xl !text-normal mint-font-bold">
+    Build with Grid
+  </h2>
+  <Columns cols={3}>
     <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
+      title="Stablecoin accounts"
+      icon="user"
+      href="/grid/v1/accounts/introduction"
+    >
+      Create and manage programmable non-custodial accounts for your users at
+      scale
+    </Card>
+    <Card
+      title="Launch a global neobank"
+      icon="rocket"
+      href="/grid/v1/examples/neobank"
+    >
+      Ship global products in weeks not months at a fraction of the cost
+    </Card>
+    <Card
+      title="Cross-border payments"
+      icon="globe"
+      href="/grid/v1/accounts/introduction"
+    >
+      Enable your users to send, receive and hold stablecoins globally
+    </Card>
+  </Columns>
+</div>
 
-## Create beautiful pages
+{/* Get Started Section */}
 
-Everything you need to create world-class documentation.
-
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
-  </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
-
-## Need inspiration?
-
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
+  <div className="mint-space-y-4 mint-mt-12">
+    <h2 className="!mint-text-3xl !text-normal mint-font-bold">Get Started</h2>
+    <Columns cols={3}>
+      <Card title="Get your API key" icon="key" href="/dashboard">
+        Generate an API key and start building. Manage your team and API keys on the dashboard.
+      </Card>
+      <Card title="Quickstart" icon="play" href="/grid/v1/accounts/quickstart">
+        Make your first API call in minutes with our comprehensive getting started guide.
+      </Card>
+      <Card title="Core concepts" icon="book" href="/grid/v1/accounts/introduction">
+        Learn the fundamental concepts behind Grid's open finance platform.
+      </Card>
+    </Columns>
+  </div>
+</div>

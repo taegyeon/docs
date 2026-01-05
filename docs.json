@@ -1,42 +1,32 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "whiterail",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "/"
+  },
   "navigation": {
-    "global": {
-      "tabs": [
-        {
-          "tab": "Wellcom",
-          "href": "https://nodeinfra.mintlify.app/"
-        }
-      ],
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
-        },
-        {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
-        }
-      ]
-    },
     "tabs": [
+      {
+        "tab": "Welcome",
+        "pages": [
+          "index"
+        ]
+      },
       {
         "tab": "Guides",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
-              "index",
               "quickstart",
               "development"
             ]
@@ -89,10 +79,6 @@
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
   "navbar": {
     "links": [
       {
@@ -108,15 +94,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
@@ -124,5 +110,20 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "_unused": {
+    "note": "나중에 사용할 링크들",
+    "anchors": [
+      {
+        "anchor": "Documentation",
+        "icon": "book-open-cover",
+        "href": "https://mintlify.com/docs"
+      },
+      {
+        "anchor": "Blog",
+        "icon": "newspaper",
+        "href": "https://mintlify.com/blog"
+      }
+    ]
   }
 }
